@@ -4,4 +4,4 @@ Extract information within xml tags using *non-capturing* patterns and *re.DOTAL
 
 In Python, non-capturing patterns are indicated with **(?:_______)**.
 
-**(?P<name>_______)** is a pattern for a named group.
+**(?P\<name\>_______)** is a pattern for a named group.
