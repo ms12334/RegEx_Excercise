@@ -1,5 +1,5 @@
 import re
-pattern = re.compile(r'(?:<publiser>)(?P<pub>.*?)(?:</publisher>)')
+pattern = re.compile(r'(?:<publisher>)(?P<pub>.*?)(?:</publisher>)')
 with open('books.xml','r') as fin:
     with open('result.txt','w') as fout:
         str = fin.read()
