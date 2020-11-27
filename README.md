@@ -11,3 +11,5 @@ sample1.py will extract names of publisher.
 sample2.py will extract genres.
 
 sample3.py will extract book titles, author names, and published years.
+
+sample4.py will generate books_updated.xml. This doesn't use re.DOTALL or re.S option. Instead, (?s) was added at the beginning of RegEx. Also this example shows how to use group name as a reference.
